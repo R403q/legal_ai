@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Formularz RODO</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>LegalAI</h1>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="ai-zastosowania.html">AI w Prawie</a>
+      <a href="formularz-rodo.html">Formularz RODO</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Generator klauzuli RODO</h2>
+      <form id="rodoForm">
+        <label for="nazwa">Nazwa firmy:</label>
+        <input type="text" id="nazwa" name="nazwa" required>
+
+        <label for="dane">Rodzaj danych:</label>
+        <input type="text" id="dane" name="dane" required>
+
+        <button type="submit">Wygeneruj klauzulę</button>
+      </form>
+
+      <div id="wynik"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LegalAI</p>
+  </footer>
+</body>
+</html>
