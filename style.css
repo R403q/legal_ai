@@ -80,3 +80,32 @@ ul {
 ul li {
   margin-bottom: 0.5rem;
 }
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.center {
+  text-align: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
