@@ -1,15 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #f4f6f8;
   color: #333;
-}
-
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
 }
 
 header, footer {
@@ -17,7 +11,6 @@ header, footer {
   color: white;
   text-align: center;
   padding: 1rem 0;
-  width: 100%;
 }
 
 nav {
@@ -35,27 +28,55 @@ nav a:hover {
   text-decoration: underline;
 }
 
-section {
+main {
+  max-width: 1000px;
+  margin: auto;
   padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-input, button {
-  display: block;
-  margin: 1rem 0;
-  padding: 0.5rem;
-  font-size: 1rem;
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
 }
 
-button {
-  background-color: #0074D9;
-  color: white;
-  border: none;
-  cursor: pointer;
+section.intro {
+  background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+section.ai-impact {
+  background-color: #f0f8ff;
+}
+
+section.benefits {
+  background-color: #f9fbe7;
+}
+
+section.future {
+  background-color: #e8f5e9;
+}
+
+section.quote {
+  background-color: #ede7f6;
+  font-style: italic;
+  text-align: center;
+  border-left: 5px solid #7e57c2;
 }
 
 img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 1rem 0;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
 }
