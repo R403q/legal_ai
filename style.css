@@ -136,3 +136,18 @@ button:hover {
   background-color: #005fa3;
 }
 
+.video-btn {
+  display: inline-block;
+  background-color: #0074D9;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.video-btn:hover {
+  background-color: #005fa3;
+}
+
